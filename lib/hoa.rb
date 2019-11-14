@@ -8,6 +8,6 @@ require "pry"
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  show
+  [show] << name
   binding.pry
 end
