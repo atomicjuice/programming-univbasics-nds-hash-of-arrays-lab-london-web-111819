@@ -10,5 +10,4 @@ def add_character(show, name)
   # Should return the array of the 'show' argument
   show
   binding.pry
-  show
 end
