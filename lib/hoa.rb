@@ -9,6 +9,6 @@ def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   # show[ << name
-  [show][0]
+  [show]
   # binding.pry
 end
