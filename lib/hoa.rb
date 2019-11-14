@@ -4,10 +4,10 @@ BASE_HOA = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-require "pry"
+# require "pry"
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   [show] << name
-  binding.pry
+  # binding.pry
 end
